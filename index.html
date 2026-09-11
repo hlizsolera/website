@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haley E. Solera</title>
+<meta name="description" content="Haley E. Solera (Liz Solera) — PhD Candidate, MIT ARCLab. Research on Space Domain Awareness and satellite behavior ontologies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,72,400;0,72,500;1,72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FCFBF8;
+    --ink: #1C1B19;
+    --accent: #2B3A67;
+    --accent-soft: #5B6B8C;
+    --rule: #DAD5C8;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    text-decoration-thickness: 1.5px;
+  }
+
+  a:hover, a:focus { text-decoration-color: var(--accent); }
+
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 6rem;
+  }
+
+  header h1 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: clamp(2.4rem, 6vw, 3.2rem);
+    margin: 0 0 0.3rem;
+    letter-spacing: -0.01em;
+  }
+
+  header p.role {
+    margin: 0 0 1.6rem;
+    font-size: 1.05rem;
+    color: var(--accent-soft);
+  }
+
+  .orbit {
+    width: 100%;
+    height: 28px;
+    margin-bottom: 2.2rem;
+  }
+
+  nav {
+    margin-bottom: 3rem;
+  }
+
+  nav a {
+    margin-right: 1.6rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  section h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 0 0 0.9rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 2.2rem;
+  }
+
+  section p { margin: 0 0 1rem; max-width: 34em; }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-list li { margin-bottom: 0.4rem; }
+
+  footer {
+    font-size: 0.85rem;
+    color: var(--accent-soft);
+    border-top: 1px solid var(--rule);
+    padding-top: 1.5rem;
+  }
+
+  @media (max-width: 420px) {
+    .wrap { padding: 3rem 1.25rem 4rem; }
+    nav a { display: inline-block; margin-bottom: 0.5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Haley E. Solera</h1>
+    <p class="role">Liz Solera &middot; PhD Candidate, MIT ARCLab</p>
+  </header>
+
+  <!-- Decorative single motif: a faint orbital ellipse, used once as the page's signature visual element -->
+  <svg class="orbit" viewBox="0 0 700 28" xmlns="http://www.w3.org/2000/svg" role="presentation" aria-hidden="true">
+    <ellipse cx="350" cy="14" rx="345" ry="4" fill="none" stroke="#2B3A67" stroke-opacity="0.35" stroke-width="1"/>
+    <circle cx="20" cy="14" r="3.5" fill="#2B3A67" fill-opacity="0.55"/>
+  </svg>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I'm a PhD candidate in Space Systems Engineering (minor: Spacecraft
+      Dynamics) at MIT's Astrodynamics, Space Robotics, and Controls
+      Laboratory (ARCLab). My dissertation looks at how enterprise Space
+      Domain Awareness (SDA) systems encode complex satellite behaviors,
+      and how the data standards those systems rely on shape that encoding
+      in the first place.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>
+      More broadly, I'm interested in applying compositional category
+      theory to questions of semantic interoperability &mdash; designing a
+      shared layer that lets different parts of the SDA enterprise
+      communicate satellite behavior ontologies without losing meaning in
+      translation.
+    </p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>
+      A full list is on its way. In the meantime, feel free to reach out
+      directly for preprints or details on current work.
+    </p>
+    <!-- EDIT: replace the paragraph above with a list once you have titles/links ready, e.g.
+    <ul>
+      <li><a href="#">Paper title</a>, Conference Year</li>
+    </ul>
+    -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li>Email: <a href="mailto:hsolera@mit.edu">hsolera@mit.edu</a></li>
+      <!-- EDIT: add CV link once ready, e.g. <li><a href="cv.pdf">CV (PDF)</a></li> -->
+      <li>CV available on request</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2026 Haley E. Solera. Also known as Liz Solera.
+  </footer>
+
+</div>
+</body>
+</html>
